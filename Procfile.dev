@@ -1,0 +1,3 @@
+web: rm tmp/pids/server.pid && bin/rails server -p 4321 -b '0.0.0.0'
+js: yarn build --watch
+css: bin/rails tailwindcss:watch
